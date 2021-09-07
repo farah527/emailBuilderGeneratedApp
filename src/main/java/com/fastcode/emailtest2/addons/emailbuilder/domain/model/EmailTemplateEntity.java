@@ -17,7 +17,7 @@ import lombok.EqualsAndHashCode;
 @Entity
 @Table(name = "Email")
 @Getter @Setter
-public class EmailTemplateEntity extends AbstractEntity {
+public class EmailTemplateEntity  {
     
     @Id
     @EqualsAndHashCode.Include()

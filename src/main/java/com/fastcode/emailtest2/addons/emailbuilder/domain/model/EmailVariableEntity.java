@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
 @Getter @Setter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @NoArgsConstructor
-public class EmailVariableEntity extends AbstractEntity {
+public class EmailVariableEntity {
 	
 	@Id
 	@EqualsAndHashCode.Include()
