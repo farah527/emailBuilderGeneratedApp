@@ -10,7 +10,7 @@ public class FindEmailVariableByIdOutput {
 	private String propertyName;
 	private String propertyType;
     private String defaultValue;
-    private Long versiono;
+ //   private Long versiono;
     private String mergeType;
 }
 	

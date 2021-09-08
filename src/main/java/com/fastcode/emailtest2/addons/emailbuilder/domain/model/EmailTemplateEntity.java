@@ -43,12 +43,12 @@ public class EmailTemplateEntity  {
 	
 	@Basic
 	@Column(name = "To_", nullable = false,length = 256)	
-	@Email
+//	@Email
 	private String to;
 	
 	@Basic
 	@Column(name = "Cc", nullable = true ,length = 256)
-	@Email
+//	@Email
 	private String cc;
 
 	@Basic

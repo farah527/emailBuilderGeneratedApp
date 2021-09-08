@@ -68,7 +68,7 @@ public class EmailVariableController {
 		FindEmailVariableByIdOutput currentEmail = emailVariableAppService.findById(Long.valueOf(id));
 	    
 	    Optional.ofNullable(currentEmail).orElseThrow(() -> new EntityNotFoundException(String.format("Unable to update. Email with id=%s not found.", id)));
-	    email.setVersiono(currentEmail.getVersiono());
+	//    email.setVersiono(currentEmail.getVersiono());
 	    
 	    return new ResponseEntity(emailVariableAppService.update(Long.valueOf(id), email), HttpStatus.OK);
 	}
