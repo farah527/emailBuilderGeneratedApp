@@ -13,7 +13,7 @@ import org.springframework.content.commons.annotations.ContentLength;
 import org.springframework.content.commons.annotations.MimeType;
 
 @Entity
-@Table(name = "file_history", schema = "s1")
+@Table(name = "file_history")
 public class FileHistory implements Serializable {
 
 	/**
